@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>{{ gift.get("name", "Gift") }}</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: white;
+            color: #222;
+        }
+
+        /* NAVBAR */
+
+        nav {
+            height: 80px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 0 6%;
+
+            box-shadow:
+                0 2px 10px
+                rgba(0,0,0,0.08);
+
+            background: white;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: #635bff;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #222;
+            font-size: 20px;
+            margin-left: 30px;
+        }
+
+        /* PRODUCT */
+
+        .product-container {
+
+            width: 80%;
+
+            max-width: 1000px;
+
+            margin: 60px auto;
+
+            display: flex;
+
+            gap: 60px;
+
+            align-items: center;
+        }
+
+        /* IMAGE */
+
+        .product-image {
+
+            width: 50%;
+        }
+
+        .product-image img {
+
+            width: 100%;
+
+            height: 450px;
+
+            object-fit: cover;
+
+            border-radius: 15px;
+
+            box-shadow:
+                0 5px 20px
+                rgba(0,0,0,0.10);
+        }
+
+        /* DETAILS */
+
+        .product-details {
+
+            width: 50%;
+        }
+
+        .product-details h1 {
+
+            color: #635bff;
+
+            font-size: 36px;
+
+            margin-bottom: 20px;
+        }
+
+        .price {
+
+            color: #635bff;
+
+            font-size: 28px;
+
+            font-weight: bold;
+
+            margin-bottom: 25px;
+        }
+
+        .description {
+
+            font-size: 18px;
+
+            color: #555;
+
+            line-height: 1.6;
+
+            margin-bottom: 30px;
+        }
+
+        /* BUY BUTTON */
+
+        .buy-button {
+
+            display: inline-block;
+
+            padding: 15px 40px;
+
+            background: #635bff;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 9px;
+
+            font-size: 19px;
+
+            font-weight: bold;
+
+            border: none;
+
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+
+            background: #5149e8;
+
+        }
+
+        /* BACK */
+
+        .back-button {
+
+            display: inline-block;
+
+            margin-top: 25px;
+
+            color: #635bff;
+
+            text-decoration: none;
+
+            font-size: 17px;
+        }
+
+        /* BUY MESSAGE */
+
+        #buy-message {
+
+            display: none;
+
+            margin-top: 20px;
+
+            padding: 15px;
+
+            background: #f1f0ff;
+
+            color: #635bff;
+
+            border-radius: 9px;
+
+            font-size: 17px;
+
+            font-weight: bold;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            .product-container {
+
+                flex-direction: column;
+
+                width: 90%;
+            }
+
+            .product-image,
+            .product-details {
+
+                width: 100%;
+            }
+
+            .product-image img {
+
+                height: 350px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav>
+
+    <div class="logo">
+        🎁 Gift Recommendation
+    </div>
+
+    <div class="nav-links">
+
+        <a href="{{ url_for('home') }}">
+            Home
+        </a>
+
+        <a href="{{ url_for('recommendation') }}">
+            Recommend
+        </a>
+
+    </div>
+
+</nav>
+
+
+<!-- PRODUCT -->
+
+<div class="product-container">
+
+
+    <!-- PRODUCT IMAGE -->
+
+    <div class="product-image">
+
+        {% if gift.get("image_url") %}
+
+            <img
+                src="{{ gift.get('image_url') }}"
+                alt="{{ gift.get('name', 'Gift') }}"
+            >
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- PRODUCT DETAILS -->
+
+    <div class="product-details">
+
+        <h1>
+            {{ gift.get("name", "Gift") }}
+        </h1>
+
+
+        <div class="price">
+
+            {{ gift.get("price", "₹499") }}
+
+        </div>
+
+
+        <div class="description">
+
+            🎁 This is a perfect gift choice for your
+            loved ones.
+
+            <br><br>
+
+            ✨ Select this gift and continue with your purchase.
+
+        </div>
+
+
+        <!-- BUY BUTTON -->
+
+        <button
+            class="buy-button"
+            onclick="buyGift()">
+
+            🛒 Buy Now
+
+        </button>
+
+
+        <!-- MESSAGE -->
+
+        <div id="buy-message">
+
+            ✅ Your gift has been selected successfully!
+
+        </div>
+
+
+        <br>
+
+
+        <a
+            href="javascript:history.back()"
+            class="back-button">
+
+            ← Back to Gifts
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<script>
+
+function buyGift() {
+
+    document.getElementById("buy-message").style.display = "block";
+
+}
+
+</script>
+
+
+</body>
+
+</html>

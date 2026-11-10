@@ -1,0 +1,662 @@
+[
+  {
+    "name": "Teddy Bear",
+    "relationship": "Friend",
+    "occasion": "Birthday",
+    "budget": "Below ₹500",
+    "price": "₹499",
+    "image": "teddy.jpg"
+  },
+  {
+    "name": "Coffee Mug",
+    "relationship": "Friend",
+    "occasion": "Birthday",
+    "budget": "Below ₹500",
+    "price": "₹299",
+    "image": "cup.jpg"
+  },
+  {
+    "name": "Photo Frame",
+    "relationship": "Friend",
+    "occasion": "Birthday",
+    "budget": "₹500 - ₹1000",
+    "price": "₹699",
+    "image": "photo.jpg"
+  },
+  {
+    "name": "Flowers",
+    "relationship": "Friend",
+    "occasion": "Birthday",
+    "budget": "₹500 - ₹1000",
+    "price": "₹799",
+    "image": "flowers.jpg"
+  },
+  {
+    "name": "Smart Watch",
+    "relationship": "Brother",
+    "occasion": "Birthday",
+    "budget": "Above ₹2000",
+    "price": "₹2499",
+    "image": "watch.jpg"
+  },
+  {
+    "name": "Formal Shirt",
+    "relationship": "Brother",
+    "occasion": "Birthday",
+    "budget": "₹1000 - ₹2000",
+    "price": "₹1299",
+    "image": "shirt.jpg"
+  },
+  {
+    "name": "Sports Shoes",
+    "relationship": "Brother",
+    "occasion": "Birthday",
+    "budget": "Above ₹2000",
+    "price": "₹2999",
+    "image": "shoes.jpg"
+  },
+  {
+    "name": "Jewellery",
+    "relationship": "Sister",
+    "occasion": "Birthday",
+    "budget": "Above ₹2000",
+    "price": "₹3499",
+    "image": "jewellery.jpg"
+  },
+  {
+    "name": "Hair Clip",
+    "relationship": "Sister",
+    "occasion": "Birthday",
+    "budget": "Below ₹500",
+    "price": "₹199",
+    "image": "hairclip.jpg"
+  },
+  {
+    "name": "Phone Pouch",
+    "relationship": "Sister",
+    "occasion": "Birthday",
+    "budget": "Below ₹500",
+    "price": "₹399",
+    "image": "phonepouch.jpg"
+  },
+  {
+    "name": "Flowers",
+    "relationship": "Mother",
+    "occasion": "Birthday",
+    "budget": "₹500 - ₹1000",
+    "price": "₹799",
+    "image": "flowers.jpg"
+  },
+  {
+    "name": "Jewellery",
+    "relationship": "Mother",
+    "occasion": "Birthday",
+    "budget": "Above ₹2000",
+    "price": "₹4999",
+    "image": "jewellery.jpg"
+  },
+  {
+    "name": "Smart Watch",
+    "relationship": "Father",
+    "occasion": "Birthday",
+    "budget": "Above ₹2000",
+    "price": "₹2999",
+    "image": "watch.jpg"
+  },
+  {
+    "name": "Photo Frame",
+    "relationship": "Father",
+    "occasion": "Birthday",
+    "budget": "Below ₹500",
+    "price": "₹499",
+    "image": "photo.jpg"
+  },
+  {
+    "name": "Jewellery",
+    "relationship": "Wife",
+    "occasion": "Anniversary",
+    "budget": "Above ₹2000",
+    "price": "₹5999",
+    "image": "jewellery.jpg"
+  },
+  {
+    "name": "Flowers",
+    "relationship": "Wife",
+    "occasion": "Anniversary",
+    "budget": "₹500 - ₹1000",
+    "price": "₹999",
+    "image": "flowers.jpg"
+  },
+  {
+    "name": "Smart Watch",
+    "relationship": "Husband",
+    "occasion": "Birthday",
+    "budget": "Above ₹2000",
+    "price": "₹3499",
+    "image": "watch.jpg"
+  },
+  {
+    "name": "Coffee Mug",
+    "relationship": "Husband",
+    "occasion": "Birthday",
+    "budget": "Below ₹500",
+    "price": "₹299",
+    "image": "cup.jpg"
+  },
+{
+  "name": "Running Shoes",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1499",
+  "image": "running_shoes.jpg"
+},
+{
+  "name": "Sports Shoes",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹2499",
+  "image": "sports_shoes.jpg"
+},
+{
+  "name": "Sneakers",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1799",
+  "image": "sneakers.jpg"
+},
+{
+  "name": "Canvas Shoes",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "Below ₹500",
+  "price": "₹499",
+  "image": "canvas_shoes.jpg"
+},
+{
+  "name": "Leather Shoes",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3499",
+  "image": "leather_shoes.jpg"
+},
+{
+  "name": "Formal Shoes",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1899",
+  "image": "formal_shoes.jpg"
+},
+{
+  "name": "Loafers",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1699",
+  "image": "loafers.jpg"
+},
+{
+  "name": "Premium Sneakers",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3999",
+  "image": "premium_sneakers.jpg"
+},
+{
+  "name": "Walking Shoes",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹500 - ₹1000",
+  "price": "₹999",
+  "image": "walking_shoes.jpg"
+},
+{
+  "name": "Casual Shoes",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹500 - ₹1000",
+  "price": "₹799",
+  "image": "casual_shoes.jpg"
+},
+{
+  "name": "Running Shoes",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1499",
+  "image": "running_shoes.jpg"
+},
+{
+  "name": "Sports Shoes",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹2499",
+  "image": "sports_shoes.jpg"
+},
+{
+  "name": "Sneakers",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1799",
+  "image": "sneakers.jpg"
+},
+{
+  "name": "Canvas Shoes",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "Below ₹500",
+  "price": "₹499",
+  "image": "canvas_shoes.jpg"
+},
+{
+  "name": "Leather Shoes",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3499",
+  "image": "leather_shoes.jpg"
+},
+{
+  "name": "Formal Shoes",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1899",
+  "image": "formal_shoes.jpg"
+},
+{
+  "name": "Loafers",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1699",
+  "image": "loafers.jpg"
+},
+{
+  "name": "Premium Sneakers",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3999",
+  "image": "premium_sneakers.jpg"
+},
+{
+  "name": "Slip-On Shoes",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹500 - ₹1000",
+  "price": "₹899",
+  "image": "slipon_shoes.jpg"
+},
+{
+  "name": "Gym Shoes",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1599",
+  "image": "gym_shoes.jpg"
+},
+{
+  "name": "High Top Sneakers",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹2799",
+  "image": "high_top_sneakers.jpg"
+},
+{
+  "name": "White Sneakers",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1699",
+  "image": "white_sneakers.jpg"
+},
+{
+  "name": "Black Sneakers",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1899",
+  "image": "black_sneakers.jpg"
+},
+{
+  "name": "Party Shoes",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3299",
+  "image": "party_shoes.jpg"
+},
+{
+  "name": "Office Shoes",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1799",
+  "image": "office_shoes.jpg"
+},
+{
+  "name": "Premium Leather Shoes",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹4599",
+  "image": "premium_leather_shoes.jpg"
+},
+{
+  "name": "College Sneakers",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹500 - ₹1000",
+  "price": "₹999",
+  "image": "college_sneakers.jpg"
+},
+{
+  "name": "Fashion Shoes",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1399",
+  "image": "fashion_shoes.jpg"
+},
+{
+  "name": "Smart Watch",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1999",
+  "image": "smart_watch.jpg"
+},
+{
+  "name": "Digital Watch",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹500 - ₹1000",
+  "price": "₹899",
+  "image": "digital_watch.jpg"
+},
+{
+  "name": "Analog Watch",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1499",
+  "image": "analog_watch.jpg"
+},
+{
+  "name": "Smart Watch",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹2499",
+  "image": "smart_watch.jpg"
+},
+{
+  "name": "Digital Watch",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹500 - ₹1000",
+  "price": "₹999",
+  "image": "digital_watch.jpg"
+},
+{
+  "name": "Analog Watch",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1799",
+  "image": "analog_watch.jpg"
+},
+{
+  "name": "Smart Watch",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹2999",
+  "image": "smart_watch.jpg"
+},
+{
+  "name": "Digital Watch",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1599",
+  "image": "digital_watch.jpg"
+},
+{
+  "name": "Analog Watch",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1899",
+  "image": "analog_watch.jpg"
+},
+{
+  "name": "Smart Watch",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3499",
+  "image": "smart_watch.jpg"
+},
+{
+  "name": "Digital Watch",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1699",
+  "image": "digital_watch.jpg"
+},
+{
+  "name": "Analog Watch",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1999",
+  "image": "analog_watch.jpg"
+},
+{
+  "name": "Luxury Watch",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹4999",
+  "image": "luxury_watch.jpg"
+},
+{
+  "name": "Sports Watch",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1899",
+  "image": "sports_watch.jpg"
+},
+{
+  "name": "Leather Strap Watch",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹2499",
+  "image": "leather_watch.jpg"
+},
+{
+  "name": "Stainless Steel Watch",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3299",
+  "image": "steel_watch.jpg"
+},
+{
+  "name": "Chronograph Watch",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3999",
+  "image": "chronograph_watch.jpg"
+},
+{
+  "name": "Fitness Band",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹1799",
+  "image": "fitness_band.jpg"
+},
+{
+  "name": "Casual Watch",
+  "relationship": "Friend",
+  "occasion": "Birthday",
+  "budget": "₹500 - ₹1000",
+  "price": "₹999",
+  "image": "casual_watch.jpg"
+},
+{
+  "name": "Couple Watch",
+  "relationship": "Wife",
+  "occasion": "Anniversary",
+  "budget": "Above ₹2000",
+  "price": "₹4599",
+  "image": "couple_watch.jpg"
+},
+{
+  "name": "Classic Watch",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹2199",
+  "image": "classic_watch.jpg"
+},
+{
+  "name": "Designer Watch",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹5499",
+  "image": "designer_watch.jpg"
+},
+{
+  "name": "Waterproof Watch",
+  "relationship": "Brother",
+  "occasion": "Birthday",
+  "budget": "₹1000 - ₹2000",
+  "price": "₹2799",
+  "image": "waterproof_watch.jpg"
+},
+{
+  "name": "Military Watch",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹3699",
+  "image": "military_watch.jpg"
+},
+{
+  "name": "Kids Watch",
+  "relationship": "Sister",
+  "occasion": "Birthday",
+  "budget": "Below ₹500",
+  "price": "₹499",
+  "image": "kids_watch.jpg"
+},
+{
+  "name": "Gold Watch",
+  "relationship": "Father",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹6999",
+  "image": "gold_watch.jpg"
+},
+{
+  "name": "Silver Watch",
+  "relationship": "Husband",
+  "occasion": "Birthday",
+  "budget": "Above ₹2000",
+  "price": "₹4999",
+  "image": "silver_watch.jpg"
+},
+  {
+    "name": "Chronograph Watch",
+    "price": "₹1999",
+    "image": "chronograph_watch.jpg"
+},
+  {
+    "name": "Waterproof Watch",
+    "price": "₹1499",
+    "image": "waterproof_watch.jpg"
+}
+  ,
+{
+    "name": "Perfume",
+    "relationship": "Friend",
+    "occasion": "Birthday",
+    "budget": "₹500 - ₹1000",
+    "price": "₹799",
+    "image": "perfume.jpg"
+},
+{
+    "name": "Handbag",
+    "relationship": "Sister",
+    "occasion": "Birthday",
+    "budget": "₹1000 - ₹2000",
+    "price": "₹1299",
+    "image": "handbag.jpg"
+},
+{
+    "name": "Chocolate Box",
+    "relationship": "Friend",
+    "occasion": "Birthday",
+    "budget": "Below ₹500",
+    "price": "₹399",
+    "image": "chocolate.jpg"
+},
+{
+    "name": "Photo Album",
+    "relationship": "Friend",
+    "occasion": "Anniversary",
+    "budget": "Below ₹500",
+    "price": "₹449",
+    "image": "album.jpg"
+},
+{
+    "name": "Wallet",
+    "relationship": "Father",
+    "occasion": "Birthday",
+    "budget": "₹500 - ₹1000",
+    "price": "₹699",
+    "image": "wallet.jpg"
+},
+{
+    "name": "Keychain",
+    "relationship": "Brother",
+    "occasion": "Birthday",
+    "budget": "Below ₹500",
+    "price": "₹249",
+    "image": "keychain.jpg"
+},
+{
+    "name": "Flower Bouquet",
+    "relationship": "Mother",
+    "occasion": "Festival",
+    "budget": "₹500 - ₹1000",
+    "price": "₹599",
+    "image": "bouquet.jpg"
+},
+{
+    "name": "Candle Set",
+    "relationship": "Sister",
+    "occasion": "Festival",
+    "budget": "Below ₹500",
+    "price": "₹349",
+    "image": "candles.jpg"
+}
+  ]
+

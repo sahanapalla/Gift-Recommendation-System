@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Recommendation System</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">🎁 Gift Recommendation</div>
+
+        <ul class="nav-links">
+            <li><a href="/recommendation">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Form -->
+    <div class="container">
+
+        <h1>Find the Perfect Gift 🎁</h1>
+
+        <form action="/gift" method="POST">
+
+            <label>Relationship</label>
+            <select name="relationship" required>
+                <option value="">-- Select Relationship --</option>
+                <option>Friend</option>
+                <option>Brother</option>
+                <option>Sister</option>
+                <option>Mother</option>
+                <option>Father</option>
+                <option>Wife</option>
+                <option>Husband</option>
+            </select>
+
+            <label>Occasion</label>
+            <select name="occasion" required>
+                <option value="">-- Select Occasion --</option>
+                <option>Birthday</option>
+                <option>Anniversary</option>
+                <option>Wedding</option>
+                <option>Festival</option>
+            </select>
+
+            <label>Budget</label>
+            <select name="budget" required>
+                <option value="">-- Select Budget --</option>
+                <option>Below ₹500</option>
+                <option>₹500 - ₹1000</option>
+                <option>₹1000 - ₹2000</option>
+                <option>Above ₹2000</option>
+            </select>
+
+            <button type="submit" class="btn">
+                Recommend Gift
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- About -->
+    <section id="about" class="info-section">
+        <h2>About Us</h2>
+
+        <p>
+            Our Gift Recommendation System helps users find the perfect gift
+            based on relationship, occasion and budget. It saves time and
+            makes choosing gifts easier for every special moment.
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="info-section">
+        <h2>Contact Us</h2>
+
+        <p><strong>Email:</strong> support@giftrecommendation.com</p>
+        <p><strong>Phone:</strong> +91 9347861906</p>
+        <p><strong>Location:</strong> Andhra Pradesh, India</p>
+    </section>
+
+</body>
+</html>

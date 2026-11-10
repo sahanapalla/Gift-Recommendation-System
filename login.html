@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gift Recommendation System</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🎁 Gift Recommendation
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="/">Home</a>
+            </li>
+
+            <li>
+                <a href="/recommendation">Recommend</a>
+            </li>
+
+            <li>
+                <a href="/about">About</a>
+            </li>
+
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <h1>
+            Find the Perfect Gift
+        </h1>
+
+        <p>
+            Discover thoughtful gifts for your loved ones
+            based on relationship, occasion and budget.
+        </p>
+
+
+        <!-- SEARCH -->
+
+        <form action="/search"
+              method="GET"
+              class="hero-search">
+
+            <input
+                type="text"
+                name="query"
+                placeholder="🔍 Search gifts..."
+                required>
+
+            <button type="submit">
+                Search
+            </button>
+
+        </form>
+
+
+        <a href="/recommendation"
+           class="btn">
+
+            Get Started
+
+        </a>
+
+    </section>
+
+
+    <!-- ================= TRENDING GIFTS ================= -->
+
+    <section class="trending">
+
+        <h2>
+            🔥 Trending Gifts
+        </h2>
+
+
+        <div class="gift-container">
+
+
+            <!-- ================= WATCH ================= -->
+
+            <div class="gift-card"
+                 onclick="window.location.href='/category/watch'">
+
+                <img
+                    src="{{ url_for('static', filename='images/watch.jpg') }}"
+                    alt="Watch">
+
+                <h3>
+                    Smart Watch
+                </h3>
+
+                <p>
+                    ₹999
+                </p>
+
+                <button type="button">
+                    View Gift
+                </button>
+
+            </div>
+
+
+            <!-- ================= TEDDY ================= -->
+
+            <div class="gift-card"
+                 onclick="window.location.href='/category/teddy'">
+
+                <img
+                    src="{{ url_for('static', filename='images/teddy.jpg') }}"
+                    alt="Teddy">
+
+                <h3>
+                    Teddy Bear
+                </h3>
+
+                <p>
+                    ₹499
+                </p>
+
+                <button type="button">
+                    View Gift
+                </button>
+
+            </div>
+
+
+            <!-- ================= FLOWERS ================= -->
+
+            <div class="gift-card"
+                 onclick="window.location.href='/category/flowers'">
+
+                <img
+                    src="{{ url_for('static', filename='images/flowers.jpg') }}"
+                    alt="Flowers">
+
+                <h3>
+                    Flowers
+                </h3>
+
+                <p>
+                    ₹699
+                </p>
+
+                <button type="button">
+                    View Gift
+                </button>
+
+            </div>
+
+
+            <!-- ================= JEWELLERY ================= -->
+
+            <div class="gift-card"
+                 onclick="window.location.href='/category/jewellery'">
+
+                <img
+                    src="{{ url_for('static', filename='images/jewellery.jpg') }}"
+                    alt="Jewellery">
+
+                <h3>
+                    Jewellery
+                </h3>
+
+                <p>
+                    ₹1499
+                </p>
+
+                <button type="button">
+                    View Gift
+                </button>
+
+            </div>
+
+
+            <!-- ================= COFFEE CUP ================= -->
+
+            <div class="gift-card"
+                 onclick="window.location.href='/category/cup'">
+
+                <img
+                    src="{{ url_for('static', filename='images/cup.jpg') }}"
+                    alt="Coffee Cup">
+
+                <h3>
+                    Coffee Cup
+                </h3>
+
+                <p>
+                    ₹299
+                </p>
+
+                <button type="button">
+                    View Gift
+                </button>
+
+            </div>
+
+
+            <!-- ================= PHOTO FRAME ================= -->
+
+            <div class="gift-card"
+                 onclick="window.location.href='/category/photo'">
+
+                <img
+                    src="{{ url_for('static', filename='images/photo.jpg') }}"
+                    alt="Photo Frame">
+
+                <h3>
+                    Photo Frame
+                </h3>
+
+                <p>
+                    ₹399
+                </p>
+
+                <button type="button">
+                    View Gift
+                </button>
+
+            </div>
+
+
+            <!-- ================= SHIRT ================= -->
+
+            <div class="gift-card"
+                 onclick="window.location.href='/category/shirt'">
+
+                <img
+                    src="{{ url_for('static', filename='images/shirt.jpg') }}"
+                    alt="Shirt">
+
+                <h3>
+                    Shirt
+                </h3>
+
+                <p>
+                    ₹799
+                </p>
+
+                <button type="button">
+                    View Gift
+                </button>
+
+            </div>
+
+
+            <!-- ================= SHOES ================= -->
+
+            <div class="gift-card"
+                 onclick="window.location.href='/category/shoes'">
+
+                <img
+                    src="{{ url_for('static', filename='images/shoes.jpg') }}"
+                    alt="Shoes">
+
+                <h3>
+                    Shoes
+                </h3>
+
+                <p>
+                    ₹1299
+                </p>
+
+                <button type="button">
+                    View Gift
+                </button>
+
+            </div>
+            <!-- ================= HANDBAG ================= -->
+<div class="gift-card" onclick="window.location.href='/category/handbag'">
+
+    <img src="{{ url_for('static', filename='images/handbag.jpg') }}"
+         alt="Handbag">
+
+    <h3>Handbag</h3>
+
+    <p>₹999</p>
+
+    <button type="button">View Gift</button>
+
+</div>
+
+
+<!-- ================= HEADPHONES ================= -->
+<div class="gift-card" onclick="window.location.href='/category/headphones'">
+
+    <img src="{{ url_for('static', filename='images/headphones.jpg') }}"
+         alt="Headphones">
+
+    <h3>Headphones</h3>
+
+    <p>₹1499</p>
+
+    <button type="button">View Gift</button>
+
+</div>
+
+
+<!-- ================= SUNGLASSES ================= -->
+<div class="gift-card" onclick="window.location.href='/category/sunglasses'">
+
+    <img src="{{ url_for('static', filename='images/sunglasses.jpg') }}"
+         alt="Sunglasses">
+
+    <h3>Sunglasses</h3>
+
+    <p>₹799</p>
+
+    <button type="button">View Gift</button>
+
+</div>
+
+
+<!-- ================= BACKPACK ================= -->
+<div class="gift-card" onclick="window.location.href='/category/backpack'">
+
+    <img src="{{ url_for('static', filename='images/backpack.jpg') }}"
+         alt="Backpack">
+
+    <h3>Backpack</h3>
+
+    <p>₹1299</p>
+
+    <button type="button">View Gift</button>
+
+</div>
+
+
+<!-- ================= MAKEUP ================= -->
+<div class="gift-card" onclick="window.location.href='/category/makeup'">
+
+    <img src="{{ url_for('static', filename='images/makeup.jpg') }}"
+         alt="Makeup">
+
+    <h3>Makeup Kit</h3>
+
+    <p>₹899</p>
+
+    <button type="button">View Gift</button>
+
+</div>
+
+
+<!-- ================= WALLET ================= -->
+<div class="gift-card" onclick="window.location.href='/category/wallet'">
+
+    <img src="{{ url_for('static', filename='images/wallet.jpg') }}"
+         alt="Wallet">
+
+    <h3>Wallet</h3>
+
+    <p>₹699</p>
+
+    <button type="button">View Gift</button>
+
+</div>
+
+
+<!-- ================= PERFUME ================= -->
+<div class="gift-card" onclick="window.location.href='/category/perfume'">
+
+    <img src="{{ url_for('static', filename='images/perfume.jpg') }}"
+         alt="Perfume">
+
+    <h3>Perfume</h3>
+
+    <p>₹999</p>
+
+    <button type="button">View Gift</button>
+
+</div>
+
+
+<!-- ================= PHONE ================= -->
+<div class="gift-card" onclick="window.location.href='/category/phone'">
+
+    <img src="{{ url_for('static', filename='images/phone.jpg') }}"
+         alt="Phone">
+
+    <h3>Smartphone</h3>
+
+    <p>₹15999</p>
+
+    <button type="button">View Gift</button>
+
+</div>
+                        </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="info-section">
+
+        <h2>About Us</h2>
+
+        <p>
+            Welcome to the Gift Recommendation System.
+            Our website helps users find the perfect gift
+            based on relationship, occasion and budget.
+            We make gift selection simple, fast and enjoyable.
+        </p>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="info-section">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            <strong>Email:</strong>
+            support@giftrecommendation.com
+        </p>
+
+        <p>
+            <strong>Phone:</strong>
+            +91 9347861906
+        </p>
+
+        <p>
+            <strong>Location:</strong>
+            Andhra Pradesh, India
+        </p>
+
+    </section>
+
+
+</body>
+
+</html>
